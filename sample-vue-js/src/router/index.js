@@ -1,1 +1,1 @@
-export { default } from '../views/day3/router-index.js'
+export { default } from '../views/day4/router-index.js'

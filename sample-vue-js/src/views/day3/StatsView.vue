@@ -4,8 +4,8 @@ import { useTaskStore } from '@/stores/taskStore'
 
 const taskStore = useTaskStore()
 
-const total   = computed(() => taskStore.tasks.length)
-const done    = computed(() => taskStore.tasks.filter(t => t.done).length)
+const total = computed(() => taskStore.tasks.length)
+const done = computed(() => taskStore.tasks.filter(t => t.done).length)
 const pending = computed(() => total.value - done.value)
 </script>
 
